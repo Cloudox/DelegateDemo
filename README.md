@@ -8,6 +8,7 @@
 回想一下，在使用列表，也就是UITableView的时候，除了创建这个列表对象，还会用到UITableView Datasource和UITableView Delegate。当我们要设置点击列表行的相应时，就要用到UITableView Delegate的方法，这里要讲的，跟这个是同一个东西。
 
 先看一个效果：
+
 ![](https://github.com/Cloudox/DelegateDemo/blob/master/delegate.gif)
 
 在主界面有一个按钮和一个方块，方块原本是隐藏的。进入子界面，子界面有两个按钮，一个用来告诉主界面显示方块，一个用来告诉主界面隐藏方块。那子界面时怎么告诉主界面的呢？

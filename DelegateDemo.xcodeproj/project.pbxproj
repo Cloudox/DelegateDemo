@@ -15,6 +15,7 @@
 		ADF8DB881D5097670007D434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF8DB861D5097670007D434 /* LaunchScreen.storyboard */; };
 		ADF8DB931D5097680007D434 /* DelegateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8DB921D5097680007D434 /* DelegateDemoTests.m */; };
 		ADF8DB9E1D5097680007D434 /* DelegateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8DB9D1D5097680007D434 /* DelegateDemoUITests.m */; };
+		ADF8DBAD1D5097930007D434 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8DBAC1D5097930007D434 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ADF8DB991D5097680007D434 /* DelegateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF8DB9D1D5097680007D434 /* DelegateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateDemoUITests.m; sourceTree = "<group>"; };
 		ADF8DB9F1D5097680007D434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF8DBAB1D5097930007D434 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		ADF8DBAC1D5097930007D434 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				ADF8DB7C1D5097670007D434 /* AppDelegate.m */,
 				ADF8DB7E1D5097670007D434 /* ViewController.h */,
 				ADF8DB7F1D5097670007D434 /* ViewController.m */,
+				ADF8DBAB1D5097930007D434 /* SecondViewController.h */,
+				ADF8DBAC1D5097930007D434 /* SecondViewController.m */,
 				ADF8DB811D5097670007D434 /* Main.storyboard */,
 				ADF8DB841D5097670007D434 /* Assets.xcassets */,
 				ADF8DB861D5097670007D434 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF8DBAD1D5097930007D434 /* SecondViewController.m in Sources */,
 				ADF8DB801D5097670007D434 /* ViewController.m in Sources */,
 				ADF8DB7D1D5097670007D434 /* AppDelegate.m in Sources */,
 				ADF8DB7A1D5097670007D434 /* main.m in Sources */,

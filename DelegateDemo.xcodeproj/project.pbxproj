@@ -16,6 +16,7 @@
 		ADF8DB931D5097680007D434 /* DelegateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8DB921D5097680007D434 /* DelegateDemoTests.m */; };
 		ADF8DB9E1D5097680007D434 /* DelegateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8DB9D1D5097680007D434 /* DelegateDemoUITests.m */; };
 		ADF8DBAD1D5097930007D434 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8DBAC1D5097930007D434 /* SecondViewController.m */; };
+		ADFD9A6A1D51800A000CEBCE /* delegate.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADFD9A691D51800A000CEBCE /* delegate.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		ADF8DB9F1D5097680007D434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADF8DBAB1D5097930007D434 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		ADF8DBAC1D5097930007D434 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		ADFD9A691D51800A000CEBCE /* delegate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = delegate.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				ADF8DB911D5097680007D434 /* DelegateDemoTests */,
 				ADF8DB9C1D5097680007D434 /* DelegateDemoUITests */,
 				ADF8DB761D5097670007D434 /* Products */,
+				ADFD9A691D51800A000CEBCE /* delegate.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,6 +254,7 @@
 				ADF8DB881D5097670007D434 /* LaunchScreen.storyboard in Resources */,
 				ADF8DB851D5097670007D434 /* Assets.xcassets in Resources */,
 				ADF8DB831D5097670007D434 /* Main.storyboard in Resources */,
+				ADFD9A6A1D51800A000CEBCE /* delegate.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +506,7 @@
 				ADF8DBA41D5097680007D434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADF8DBA51D5097680007D434 /* Build configuration list for PBXNativeTarget "DelegateDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				ADF8DBA71D5097680007D434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADF8DBA81D5097680007D434 /* Build configuration list for PBXNativeTarget "DelegateDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				ADF8DBAA1D5097680007D434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

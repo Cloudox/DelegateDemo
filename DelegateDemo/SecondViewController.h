@@ -15,6 +15,6 @@
 
 @interface SecondViewController : UIViewController
 
-@property (nonatomic, weak) id<SecondViewControllerDelegate> delegate;
+@property (nonatomic, weak) id<SecondViewControllerDelegate> delegate;// 声明delegate对象
 
 @end
